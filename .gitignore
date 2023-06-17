@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.class
+APDescription.txt
+MTPs-Main-Container.txt
