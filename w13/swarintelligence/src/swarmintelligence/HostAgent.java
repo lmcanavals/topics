@@ -14,8 +14,8 @@ import java.util.ArrayList;
  */
 public class HostAgent extends Agent {
     public static MainFrame frame = null;
-    public static int numberFishes = 200;
-    public static ArrayList<FishAgent> fishes = new ArrayList<FishAgent>();
+    public static int numberFishes = 5_000;
+    public static ArrayList<FishAgent> fishes = new ArrayList<>();
     public static boolean ENABLED = false;
     public static int x_center = 0;
     
