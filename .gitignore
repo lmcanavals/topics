@@ -131,3 +131,4 @@ dmypy.json
 *.class
 APDescription.txt
 MTPs-Main-Container.txt
+/w14/Planes/nbproject/private/
