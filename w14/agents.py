@@ -89,7 +89,7 @@ class Agent(Thing):
         self.bump = False
         self.holding = []
         self.performance = 0
-        if program is None or not isinstance(program, collections.Callable):
+        if program is None or not isinstance(program, collections.abc.Callable):
             print("Can't find a valid program for {}, falling back to default.".format(
                 self.__class__.__name__))
 
